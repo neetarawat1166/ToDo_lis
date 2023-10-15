@@ -28,7 +28,7 @@ const Login: React.FC = ()=>{
                 <S.Img src={Logo}></S.Img>
             </S.LeftSide>
             <S.RightSide>
-                <S.Title>Welcome to Tasker</S.Title>
+                <S.Title>Welcome to Todo List</S.Title>
                 <S.Subtitle>Please, insert your informations to access your tasks.</S.Subtitle>
                 <S.FieldName >Email</S.FieldName>
                 <S.InputField value={email} id="email" onChange={handleEmail} placeholder="Insert your email"></S.InputField>
